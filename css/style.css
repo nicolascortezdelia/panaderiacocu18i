@@ -1,0 +1,36 @@
+.efectoimg:hover{
+    filter: opacity(50%) ;
+    transition: 400ms;
+
+}
+
+.logoFooter{
+    width: 40%;
+}
+
+
+@media all and (max-width: 567px){
+    .img-responsive{
+        height: 250px;
+        object-fit: cover;
+    }
+
+   .footer-responsive{
+        display: flex;
+        justify-content: center;
+        }
+
+        .logoFooter{
+            width: 50%;
+            text-align: center;
+        }
+
+    .padding-footer{
+        padding: 4px!important;
+    }
+
+    
+
+    
+
+}
